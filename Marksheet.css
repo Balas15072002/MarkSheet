@@ -1,0 +1,198 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.frame {
+  font-style: italic;
+  border: 25px;
+  border-style: double;
+  border-color: rgb(132, 148, 189);
+  margin-top: 5%;
+  margin-left: 21%;
+  margin-right: 21%;
+  margin-bottom: 5%;
+  background-color: rgb(250, 243, 227);
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+.blue {
+  color: rgb(132, 148, 189);
+  font-style: normal;
+  margin-right: 20px;
+}
+.section1 h4 {
+  font-size: 20px;
+}
+h1.blue {
+  margin-top: 0px;
+  font-size: 45px;
+  text-align: center;
+  font-family: "UnifrakturMaguntia", cursive;
+  margin-bottom: 0px;
+}
+
+.section3 img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section4 {
+  display: grid;
+  grid-template-rows: 0fr 0fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-bottom: 30px;
+}
+.row1 {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgb(132, 148, 189);
+}
+p.row1 {
+  padding: 0px;
+  font-style: normal;
+  font-size: 15px;
+}
+.row2 {
+  grid-row: 2;
+  padding: 0px;
+  font-style: normal;
+  grid-column: 2;
+  text-align: center;
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+  color: rgb(132, 148, 189);
+}
+.row2c1 {
+  margin-right: auto;
+  margin-left: 55px;
+  color: rgb(132, 148, 189);
+}
+
+span.box {
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.box {
+  border: 2px solid;
+  border-color: rgb(132, 148, 189);
+}
+.row2c2 {
+  margin-right: 65px;
+  color: rgb(132, 148, 189);
+}
+.section7 {
+  width: 70%;
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 18px;
+  position: relative;
+}
+.section6 {
+  position: absolute;
+  left: 69%;
+  top: 50%;
+}
+.section8 table {
+  width: 90%;
+  border-collapse: collapse;
+  border: 2px solid;
+  border-color: rgb(132, 148, 189);
+  margin-left: 5%;
+}
+th {
+  color: rgb(132, 148, 189);
+  font-style: normal;
+  border: 2px solid;
+  color: rgb(132, 148, 189);
+}
+td {
+  padding-left: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-collapse: collapse;
+  border: 2px solid;
+  border-color: rgb(132, 148, 189);
+}
+.section9 table {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 35%;
+  color: rgb(132, 148, 189);
+  font-style: normal;
+  border-collapse: collapse;
+  border: 2px solid;
+ 
+}
+.section9 .lastCol {
+  padding-right: 10px;
+  position: relative;
+}
+.section10 {
+  position: absolute;
+  width: 15%;
+  left: 59%;
+  top: 113%;
+}
+.section10 h3 {
+  color: rgb(132, 148, 189);
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.section10 .resultBox {
+  height: 60px;
+  padding: 5px;
+  border: 2px solid;
+  border-color: rgb(132, 148, 189);
+  color: rgb(132, 148, 189);
+}
+.section10 pre {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0px;
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.lightBlue{
+    margin-top: -7%;
+    background-color: rgb(211, 212, 222);
+    width: 100%;
+    height: 79.5px;
+    
+}
+.section11{
+    background-color: rgb(223, 218, 224);
+    height: 120px;
+}
+footer{
+    display: flex;
+}
+.footerLeft{
+    padding-top: 1%;
+    width: 50%;
+    text-align: center;
+    font-style: normal;
+    color: rgb(132, 148, 189);
+}
+.footerRight{
+    font-style: normal;
+    color: rgb(132, 148, 189);
+    padding-top: 1%;
+    text-align: center;
+    width: 50%;
+}
